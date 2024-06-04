@@ -137,7 +137,7 @@ CREATE TABLE account (
 
 ## Author
 
-- Developed by: [Your Name or Identifier]
+- Developed by: PavanTeja-777
 
 ## License
 
