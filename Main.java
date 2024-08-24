@@ -82,13 +82,14 @@ public class Main {
             } else {
                 sopl("Invalid Input");
             }
-
-//          rrs.close();
             st.close();
             con.close();
 
         } catch (Exception e) {
             System.out.println(e);
+        } finally {
+            st.close();
+            con.close();
         }
     }
     public static void sop(String msg){
