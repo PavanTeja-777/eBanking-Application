@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/pro1","root","Apavan");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/pro1","user1","pass1");
             Statement st = con.createStatement();
             Scanner sc= new Scanner(System.in);
             String query;
