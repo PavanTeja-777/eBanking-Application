@@ -67,7 +67,7 @@ CREATE TABLE account (
 
 - **Connection Establishment**: Establishes a connection to the database.
     ```java
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/pro1", "root", "Apavan");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/pro1", "root", "root");
     ```
 
 ### User Input and Operations
